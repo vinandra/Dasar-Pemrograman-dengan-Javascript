@@ -106,3 +106,29 @@ if (condition1) {
   //  block of code to be executed if the condition1 is false and condition2 is false
 }
 ```
+
+# 6. PENGKONDISIAN : SWITCH
+
+The `switch` statement is used to perform different actions based on different conditions.
+
+Use the `switch` statement to select one of many code blocks to be executed.
+
+```javascript
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+}
+```
+
+**Begini Cara kerjanya:**
+
+- Ekspresi switch dievaluasi sekali.
+- Nilai ekspresi dibandingkan dengan nilai setiap kasus.
+- Jika ada kecocokan, blok kode yang terkait akan dieksekusi.
+- Jika tidak ada kecocokan, blok kode default dijalankan.
