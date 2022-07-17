@@ -1,6 +1,7 @@
-var i = 1;
+var jumlahAngkot = 10
+var angkot = 1;
 
-while (i <= 10) {
-    console.log("Angkot No. " + i + " " + "beroprasi dengan baik")
-    i++
+while(angkot <= jumlahAngkot) {
+    console.log("Angkot No. " + angkot + " beroprasi dengan baik")
+    angkot++
 }
