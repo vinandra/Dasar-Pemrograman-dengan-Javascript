@@ -64,3 +64,45 @@ Statement 1 is executed (one time) before the execution of the code block.
 Statement 2 defines the condition for executing the code block.
 
 Statement 3 is executed (every time) after the code block has been executed.
+
+# 5. PENGKONDISIAN : IF ELSE
+
+Very often when you write code, you want to perform different actions for different decisions.
+
+You can use conditional statements in your code to do this.
+
+In JavaScript we have the following conditional statements:
+
+- Use `if` to specify a block of code to be executed, if a specified condition is true
+- Use `else` to specify a block of code to be executed, if the same condition is false
+- Use `else if` to specify a new condition to test, if the first condition is false
+
+Use the `if` statement to specify a block of JavaScript code to be executed if a condition is true.
+
+```javascript
+if (condition) {
+  //  block of code to be executed if the condition is true
+}
+```
+
+Use the `else` statement to specify a block of code to be executed if the condition is false.
+
+```javascript
+if (condition) {
+  //  block of code to be executed if the condition is true
+} else {
+  //  block of code to be executed if the condition is false
+}
+```
+
+Use the `else if` statement to specify a new condition if the first condition is false.
+
+```javascript
+if (condition1) {
+  //  block of code to be executed if condition1 is true
+} else if (condition2) {
+  //  block of code to be executed if the condition1 is false and condition2 is true
+} else {
+  //  block of code to be executed if the condition1 is false and condition2 is false
+}
+```
