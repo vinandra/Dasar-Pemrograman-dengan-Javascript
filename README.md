@@ -133,3 +133,14 @@ switch(expression) {
 - Jika ada kecocokan, blok kode yang terkait akan dieksekusi.
 - Jika tidak ada kecocokan, blok kode default dijalankan.
 
+# 7. FUNCTION pada JAVASCRIPT
+
+JavaScript function adalah blok kode yang dirancang untuk melakukan tugas tertentu.
+
+JavaScript function dijalankan ketika "sesuatu" memanggilnya (memanggilnya).
+
+```javascript
+function myFunction(p1, p2) {
+  return p1 * p2;   // The function returns the product of p1 and p2
+}
+```
